@@ -3,17 +3,33 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css"
+import Button from 'react-bootstrap/Button';
+import icon from "./asicon.png"
 
 function Navbars() {
   return (
     <div>
-       <Navbar bg="dark" data-bs-theme="dark">
+       <Navbar className='navfull' bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link className='homess' href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            {/* <img src = "./asicon.png"   alt="" /> */}
+            <img className='imgicon' src={icon} alt="" />
+            <div className='allnav'>
+            <Nav.Link className='homess' href="#home">Listing</Nav.Link>
+            <Nav.Link href="#features">List Properties</Nav.Link>
+            <Nav.Link href="#pricing">Final Deals</Nav.Link>
+            <Nav.Link href="#features">How it Works</Nav.Link>
+            <Nav.Link href="#pricing">Find an Agent</Nav.Link>
+            <Nav.Link href="#features">Pricing</Nav.Link>
+            <Nav.Link href="#pricing">Contact Us</Nav.Link>
+            </div>
+            <div className='engbtn'>
+              <Button className='eng' variant="outline-light">EN</Button>{' '}
+              </div>
+            <div className='allbutton'>
+            <Button className='login' variant="primary">login</Button>{' '} 
+            </div>
+            
           </Nav>
         </Container>
       </Navbar>

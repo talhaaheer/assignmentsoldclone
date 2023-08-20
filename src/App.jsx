@@ -10,8 +10,13 @@ function App() {
   return (
     <>
       <Navbars/>
+      <div className="container  mt-2">
+      <div>
+       <h1>Live Off-Market Inventory</h1> 
+      </div>
+      </div>
+      
       <Marquees/>
-      {/* this dk */}
       <div className="container">
       <SoccerCard/>
       < Accordians/>
