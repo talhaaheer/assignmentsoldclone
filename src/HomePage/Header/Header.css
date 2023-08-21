@@ -1,0 +1,22 @@
+.assignmet{
+    color: #02549e;
+    border-left: 1px solid #c5c5c5;
+    border-radius: 12px 12px 0 0;
+    border-right: 1px solid #c5c5c5;
+    border-top: 1px solid #c5c5c5;
+    color: #02549e;
+    display: inline;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px;
+}
+.headerrow{
+    border: 1px solid #c5c5c5;
+}
+.asign{
+    margin-bottom: 8px;
+}
+.hedercls{
+    padding-left: 0.75rem;
+}

@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Navbars from "./HomePage/Navbar/Navbar"
-import SoccerCard from './HomePage/SoccerCArd/SoccerCard';
-import Accordians from "./HomePage/accordians/Accordians"
 import Marquees from './HomePage/Marquee/Marquee';
+import Agentpic from './HomePage/Agentpic/Agentpic';
+import Header from './HomePage/Header/Header';
 
 function App() {
 
@@ -15,11 +15,12 @@ function App() {
        <h1>Live Off-Market Inventory</h1> 
       </div>
       </div>
-      
       <Marquees/>
-      <div className="container">
-      <SoccerCard/>
-      < Accordians/>
+      <div className="container mt-3">
+      <Agentpic/>
+      </div>
+      <div className="container mt-3">
+      <Header/>
       </div>
     </>
   )

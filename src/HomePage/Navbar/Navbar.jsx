@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css"
 import Button from 'react-bootstrap/Button';
 import icon from "./asicon.png"
+import FlagIcon from '@mui/icons-material/Flag';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 function Navbars() {
   return (
@@ -16,20 +18,19 @@ function Navbars() {
             <img className='imgicon' src={icon} alt="" />
             <div className='allnav'>
             <Nav.Link className='homess' href="#home">Listing</Nav.Link>
-            <Nav.Link href="#features">List Properties</Nav.Link>
-            <Nav.Link href="#pricing">Final Deals</Nav.Link>
-            <Nav.Link href="#features">How it Works</Nav.Link>
-            <Nav.Link href="#pricing">Find an Agent</Nav.Link>
-            <Nav.Link href="#features">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Contact Us</Nav.Link>
+            <Nav.Link className='homess' href="#features">List Properties</Nav.Link>
+            <Nav.Link className='homess' href="#pricing">Final Deals</Nav.Link>
+            <Nav.Link className='homess' href="#features">How it Works</Nav.Link>
+            <Nav.Link className='homess' href="#pricing">Find an Agent</Nav.Link>
+            <Nav.Link className='homess' href="#features">Pricing</Nav.Link>
+            <Nav.Link className='homess' href="#pricing">Contact Us</Nav.Link>
             </div>
             <div className='engbtn'>
-              <Button className='eng' variant="outline-light">EN</Button>{' '}
+              <Button className='eng' variant="outline-light"><FlagIcon className='flgicon'/>EN</Button>{' '}
               </div>
             <div className='allbutton'>
-            <Button className='login' variant="primary">login</Button>{' '} 
+            <Button className='login' variant="primary"> <PersonOutlineOutlinedIcon/> login</Button>{' '} 
             </div>
-            
           </Nav>
         </Container>
       </Navbar>
