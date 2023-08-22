@@ -20,3 +20,35 @@
 .hedercls{
     padding-left: 0.75rem;
 }
+.rangeslidr{
+    border-left: 1px solid #c5c5c5;
+}
+/* .buldtyp{
+    width: 4rem;
+    color: black !important;
+    background-color: aliceblue !important;  */
+.buldtyp{
+    /* background-color: #02549e !important; */
+}
+.buildbutn{
+    border: 1px solid #c5c5c5;
+    font-size: 15px;
+}
+.colbed{
+    padding-left: 2.5rem;
+}
+.beds{
+    border: 1px solid #c5c5c5;  
+}
+.flter{
+    font-size: 15px !important;
+    color: black !important;
+    border: 1px solid #c5c5c5 !important;
+}
+.colfilter{
+    padding-left: 1px ;
+}
+.serchicon{
+    display: flex;
+    align-items: center
+}
