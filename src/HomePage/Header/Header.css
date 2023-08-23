@@ -28,7 +28,7 @@
     color: black !important;
     background-color: aliceblue !important;  */
 .buldtyp{
-    /* background-color: #02549e !important; */
+    padding-left: 22px;
 }
 .buildbutn{
     border: 1px solid #c5c5c5;
@@ -49,6 +49,41 @@
     padding-left: 1px ;
 }
 .serchicon{
+    font-size: 3rem !important;
+    background-color: #02549e;
+    color: azure;
+    border-radius: 50%;
+    padding: 5px;
+}
+.colsearch{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-right: 1rem;
+    border-left: 1px solid #c5c5c5;
+}
+.rsult{
+    color: #02549e;
+    font-weight: 300;
+}
+.lprice{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.fourbtn{
     display: flex;
-    align-items: center
+    justify-content: flex-end;
+    height: 3rem;
+}
+.srchtt{
+    padding-right: 1.5rem;
+}
+.partdv{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+.sorti{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
