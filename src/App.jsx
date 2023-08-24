@@ -4,7 +4,9 @@ import Navbars from "./HomePage/Navbar/Navbar"
 import Marquees from './HomePage/Marquee/Marquee';
 import Agentpic from './HomePage/Agentpic/Agentpic';
 import Header from './HomePage/Header/Header';
-import Cards from './HomePage/Cards/Cards';
+import Maincards from './HomePage/Cards/Cards';
+import Footer from './HomePage/Footer/Footer';
+
 
 function App() {
 
@@ -24,8 +26,9 @@ function App() {
       <Header/>
       </div>
       <div className="container mt-5">
-        <Cards/>
+        <Maincards/>
       </div>
+      <Footer/>
     </div>
   )
 }

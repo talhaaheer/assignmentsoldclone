@@ -4,3 +4,11 @@ body{
 .liveoff{
     font-weight: bolder;
 }
+.aligncenter{
+    display: flex;
+    align-items: center;
+}
+.justifycenter{
+    display: flex;
+    justify-content: center;
+}
