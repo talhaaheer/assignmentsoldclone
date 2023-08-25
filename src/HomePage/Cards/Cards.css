@@ -107,3 +107,17 @@
     padding-top: 114px;
     padding-left: 1rem;
 }
+.crst{
+    height: 600px;
+    overflow-y: scroll;
+}
+.crst2{
+    height: 420px;
+    width: 260px;
+    /* overflow-y: scroll; */
+}
+.fef{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
