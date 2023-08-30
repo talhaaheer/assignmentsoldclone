@@ -22,6 +22,12 @@
 .thisis{
     flex-direction: column;
 }
+.footricon{
+    color: #02549e;
+}
+.ticon{
+    padding-left: 1rem;
+}
 .btnlist{
     display: flex;
     align-items: center;

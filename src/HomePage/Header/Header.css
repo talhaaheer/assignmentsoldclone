@@ -83,6 +83,17 @@
     flex-direction: column;
     color: gray;
 }
+.partdvtwo{
+    display: flex;
+    flex-direction: column;
+    color: #02549e;
+}
+.icns{
+    color: #cccccc;
+}
+.icnstwo{
+    color: #02549e;
+}
 .sorti{
     padding-top: 0px !important;
     padding-bottom: 0px !important;

@@ -1,0 +1,89 @@
+.imgclass {
+    width: 159px;
+    height: 82px;
+    border-radius: 12px;
+    padding-left: 35px;
+  }
+  .pr-img{
+    border-radius: 50%;
+    border:  4px solid #02549e !important;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+  }
+  .navimgclass {
+    height: 82px;
+    width: 100%;
+    border-radius: 12px;
+    /* padding-left: 35px; */
+  }
+  .nv-img{
+    padding-right: 1rem !important;
+  
+  }
+  .pl-5{
+    padding-right: 2.3rem !important;
+  }
+  .major{
+    padding-right: 2rem;
+  }
+  .img {
+    margin-left: 40px;
+  }
+  .marginright {
+    margin-right: 25px !important;
+  }
+  .margin {
+    margin-left: 170px;
+  }
+  .bton {
+    background-color: #02549e;
+    color: white;
+    margin-right: 40px;
+    height: 40px;
+  }
+  .bton:hover {
+    background-color: #02549e;
+    color: white;
+    margin-right: 40px;
+    height: 40px;
+  }
+  .set {
+    font-weight: bold;
+  }
+  .buttons {
+    margin-right: -50px !important;
+  }
+  
+  .navborder {
+    border: 2px solid #c9ccc8;
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+  }
+  .centering {
+    /* margin-right: 40px; */
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #4fb020; */
+  }
+  .mar {
+    margin-right: 10px;
+  }
+  .navcolor {
+    background-color: white;
+  }
+  
+  .navborders {
+    background: linear-gradient(45deg, hwb(33 11% 4%), blue);
+    height: 3px;
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }

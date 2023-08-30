@@ -12,7 +12,20 @@ import MapIcon from '@mui/icons-material/Map';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
 import UnfoldLessIcon from '@mui/icons-material/UnfoldLess';
+import { useState } from 'react';
 function Header() {
+  const [activebutton,setActiveButton] =useState('mixed');
+  const handleMixedClick= () =>{
+    setActiveButton("mixed")
+  }
+  const handleListClick= () =>{
+    setActiveButton("list")
+  }
+  const handleMapClick= () =>{
+    setActiveButton("Map")
+  }
+
+  console.log("Button present state", activebutton);
   return (
     <div>
       <div className='asign'><h3 className='assignmet p-2 m-0'>Assignments</h3></div>
@@ -31,7 +44,6 @@ function Header() {
                   </div>
                   <div className="col-lg-6">
                     <Rangeslider />
-
                   </div>
                 </div>
               </div>
@@ -84,29 +96,29 @@ function Header() {
           <div className="col-lg-6 col-12 fourbtn">
             <Button className='sorti' variant="contained"><UnfoldLessIcon/>Sorting</Button>
             <div className='srchtt'></div>
-            <Button  variant="outlined">
-              <div className='partdv'>
+            <Button  variant="outlined" onClick={handleMixedClick}>
+              <div className={activebutton === "mixed" ? 'partdvtwo': "partdv"}>
                 <div>
-                  <CloseFullscreenIcon />
+                  <CloseFullscreenIcon className={activebutton ==="mixed" ? "icnstwo":"icns" } />
                 </div>
                 <div >
                   Mixed
                 </div>
               </div>
             </Button>
-            <Button variant="text">
-              <div className='partdv'>
+            <Button onClick={handleListClick} variant="text">
+              <div  className={activebutton === "list" ? 'partdvtwo': "partdv"}>
                 <div>
-                  <FormatListBulletedIcon />
+                  <FormatListBulletedIcon  className={activebutton ==="list" ? "icnstwo":"icns"} />
                 </div>
                 <div>
                   List
                 </div> </div>
             </Button>
-            <Button variant="text">
-              <div className='partdv'>
+            <Button onClick={handleMapClick} variant="text">
+              <div className={activebutton === "Map" ? 'partdvtwo': "partdv"}>
                 <div>
-                  <MapIcon />
+                  <MapIcon className={activebutton ==="Map" ? "icnstwo":"icns"} />
                 </div>
                 <div>
                   Map
