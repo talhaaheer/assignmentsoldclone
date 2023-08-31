@@ -15,6 +15,8 @@ import UnfoldLessIcon from '@mui/icons-material/UnfoldLess';
 import { useState } from 'react';
 function Header() {
   const [activebutton,setActiveButton] =useState('mixed');
+  const [count,setCount] = useState(0);
+  const [ccount,setcCount] = useState(7);
   const handleMixedClick= () =>{
     setActiveButton("mixed")
   }
@@ -22,8 +24,16 @@ function Header() {
     setActiveButton("list")
   }
   const handleMapClick= () =>{
+  setCount(count+2)
     setActiveButton("Map")
   }
+  const handleIncrement= () =>{
+  setCount(count+1)
+  }
+  const handleDecrement= () =>{
+    setCount(count-2)
+  }
+
 
   console.log("Button present state", activebutton);
   return (
@@ -86,7 +96,27 @@ function Header() {
           </div>
         </div>
       </div>
+
       <div className="container">
+        <div>
+          <h1>Count: {count} </h1>
+          <button className="btn-primary btn " onClick={handleIncrement}>Increment</button>
+          <button className="btn-warning btn" onClick={handleDecrement}>Decrement</button>
+        </div>
+
+        {
+          count === 2 || ccount === 6 ? (
+            <div>
+            Hello I am visible
+          </div>
+          ) : (   <div>
+            Hello I am invisible
+          </div>)
+        }
+
+     
+
+        
         <div className="row mt-5">
           <div className="col-lg-6 col-12">
             <h4 className='lprice'>
