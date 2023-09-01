@@ -26,18 +26,42 @@ export default function Footer() {
             <p className="mt-5"> <LocationOnIcon className="footricon"/>Lorem ipsum dolor sit amet</p>
             <p> <LocalPhoneIcon className="footricon"/>Contact Us: +1 (588) 986-5960 </p>
             <p><EmailIcon className="footricon"/> Contact@Assignmentsold.ca</p>
-            <div className="footricon">
+            <div className="footriconing">
             <FacebookIcon />
+            <div className="p-1"></div>
             <TwitterIcon/>
+            <div className="p-1"></div>
             <InstagramIcon/>
+            <div className="p-1"></div>
             <PinterestIcon/>
               </div> 
           </div>
           </div>
 
-          <div className="col-lg-3 hdingtext">SELLING A PROPERTY</div>
-          <div className="col-lg-3 hdingtext">BUYING A PROPERTY</div>
-          <div className="col-lg-2 hdingtext">QUICK LINKS</div>
+          <div className="col-lg-3"> <p className="hdingtext">   SELLING A PROPERTY</p>
+          <div className="row">
+            <p className="mt-5">How Does it Work</p>
+            <p>Will my Listing be Seen</p>
+            <p>How Much could I save</p>
+            <p>Pricing</p>
+            <p>Payment options</p>
+          </div>
+          </div>
+          <div className="col-lg-3"> <p className="hdingtext">BUYING A PROPERTY</p> 
+          <div className="row">
+            <p className="mt-5">Why buy a Home with AssignmentSold</p>
+            <p> How it Works</p>
+            <p>House Hunting Tools</p>
+          </div>
+          </div>
+        
+          <div className="col-lg-2"> <p className="hdingtext">QUICK LINKS</p> 
+          <div className="row">
+            <p className="mt-5"> About Us</p>
+            <p>Sell similar property</p>
+            <p></p>
+          </div>
+          </div>
         </div>
         </div>
       </div>

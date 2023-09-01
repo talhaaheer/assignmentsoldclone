@@ -103,7 +103,6 @@ function Header() {
           <button className="btn-primary btn " onClick={handleIncrement}>Increment</button>
           <button className="btn-warning btn" onClick={handleDecrement}>Decrement</button>
         </div>
-
         {
           count === 2 || ccount === 6 ? (
             <div>

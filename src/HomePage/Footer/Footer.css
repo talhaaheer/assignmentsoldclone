@@ -22,6 +22,11 @@
 .thisis{
     flex-direction: column;
 }
+.footriconing{
+    color: #02549e;
+    display: flex;
+    flex-direction: row;
+}
 .footricon{
     color: #02549e;
 }
@@ -38,4 +43,5 @@
 .hdingtext{
     font-weight: bolder;
     font-size: 1rem;
+    /* background-color: #025490; */
 }
